@@ -55,8 +55,8 @@ function App() {
   return (
     <>
       {page === "wholeview" ? (
-        <main className="w-[100vw] h-[100vh] pb-20 overflow-scroll relative flex flex-col gap-10 items-center box-border text-white bg-violet-950 scrollbar-hide">
-          <nav className="flex items-center justify-center gap-10 w-full p-[1.58rem] bg-violet-700">
+        <main className="w-[100vw] h-[100vh] pb-20 overflow-scroll relative flex flex-col gap-10 items-center box-border text-white bg-gradient-to-r from-green-500 via-blue-500 to-purple-500 scrollbar-hide">
+          <nav className="flex items-center justify-center gap-10 w-full p-[1.58rem] bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500">
             <div className="text-[1.2rem]">어서와용</div>
             <h1 className="text-[2.5rem] font-semibold">준경 블로그</h1>
             <div className="text-[1.2rem]">반가워용</div>
@@ -95,8 +95,8 @@ function App() {
           </section>
         </main>
       ) : page === "write" ? (
-        <main className="w-[100vw] h-[100vh] relative flex flex-col gap-10 items-center box-border text-white bg-violet-950 scrollbar-hide">
-          <nav className="flex items-center justify-center gap-10 w-full h-[10rem] bg-violet-700">
+        <main className="w-[100vw] h-[100vh] relative flex flex-col gap-10 items-center box-border text-white bg-green-950 scrollbar-hide">
+          <nav className="flex items-center justify-center gap-10 w-full h-[10rem] bg-green-950">
             <div className="text-[1.2rem]">어서와용</div>
             <h1 className="text-[2.5rem] font-semibold">준경 블로그</h1>
             <div className="text-[1.2rem]">반가워용</div>
